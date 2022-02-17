@@ -34,8 +34,9 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @await RenderSectionAsync("Top", required: false)
+            @await RenderSectionAsync("AboveBody", required: false)
             @RenderBody()
+            @await RenderSectionAsync("BelowBody", required: false)
         </main>
     </div>
 
