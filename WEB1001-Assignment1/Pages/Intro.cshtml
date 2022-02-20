@@ -1,4 +1,18 @@
 ﻿@page
+@model WEB1001_Assignment1.Pages.IntroModel
 @{
 }
 <h3>Fikrath Hassan</h3>
+<br />
+<form method="GET">
+    <label for="number1">Number 1:</label>
+    <input type="number" name="number1"><br />
+    <label for="number_2">Number 2:</label>
+    <input type="number" name="number2"><br />
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+<br />
+Output:<br />
+1. @Model.Number_1<br />
+2. @Model.Number_2<br />
