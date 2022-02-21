@@ -6,17 +6,16 @@
 <h3>Fikrath Hassan</h3>
 <br />
 <form method="GET">
-    <label for="number1">Number 1:</label>
-    <input type="number" name="number1"><br />
-    <label for="number_2">Number 2:</label>
-    <input type="number" name="number2"><br />
-    <input type="reset" value="Reset">
+    <label for="Number1">Number 1:</label>
+    <input type="number" asp-for="Number1"><br />
+    <label for="Number2">Number 2:</label>
+    <input type="number" asp-for="Number2"><br />
     <input type="submit" value="Submit">
 </form>
 <br />
 Output:<br />
-1. @Model.Number_1<br />
-2. @Model.Number_2<br /><br />
+1. @Model.Number1<br />
+2. @Model.Number2<br /><br />
 @section BelowBody {
 <h5>This is a paragraph.</h5>
 <p>

@@ -9,15 +9,15 @@ namespace WEB1001_Assignment1.Pages
 {
     public class IntroModel : PageModel
     {
-        [FromQuery(Name = "number1")]
-        public Double Number_1
+        [FromQuery(Name = "Number1")]
+        public int Number1
         {
             get;
             set;
         }
 
-        [FromQuery(Name = "number2")]
-        public Double Number_2
+        [FromQuery(Name = "Number2")]
+        public int Number2
         {
             get;
             set;
